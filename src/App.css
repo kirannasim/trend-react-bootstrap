@@ -1,0 +1,72 @@
+.highlight {
+	background: #f8f9fa;
+}
+
+.select-item-list {
+	max-height: 300px;
+	overflow: auto;
+}
+
+.dropdown-item:focus-visible {
+	outline: 0;
+}
+
+article:last-child {
+	border-bottom: 0 !important;
+}
+
+article a {
+	text-decoration: none;
+}
+
+article a:hover,
+article a:focus {
+	text-decoration: underline;
+}
+
+.metas {
+	font-size: 0.75rem;
+}
+
+h6 a,
+.metas a {
+	color: #212529;
+}
+
+h6 a:hover,
+h6 a:focus,
+.metas a:hover,
+.metas a:focus {
+	color: #08c;
+	text-decoration: none;
+}
+
+svg {
+	display: inline-block;
+	overflow: visible !important;
+	vertical-align: text-bottom;
+	fill: currentColor;
+}
+
+h5 svg,
+h4 svg {
+	color: rgb(33, 37, 41);
+}
+
+p.small {
+	font-size: 0.7rem;
+}
+
+.rank {
+	width: 16px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.developer-detail small {
+	font-size: 0.75rem;
+}
+
+.developer-detail small svg {
+	color: rgb(188, 76, 0);
+}
